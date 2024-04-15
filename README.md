@@ -72,7 +72,7 @@
 			<th colspan="3">Tuesdays</th>
 		 </tr>
 		 <tr>
-		  <th colspan="3">Intensive-Active Long Intervals</th>
+		  <th colspan="3">Extensive-Passive Long Intervals</th>
 		 </tr>
 		 <tr>
 			<th colspan="3">Work Interval</th>
@@ -107,7 +107,7 @@
 			<th colspan="3">Thursdays</th>
 		 </tr>
 		 <tr>
-		  <th colspan="3">Intermittent Recovery Intervals</th>
+		  <th colspan="3">Intensive-Passive Short Intervals</th>
 		 </tr>
 		 <tr>
 			<th colspan="3">Work Interval</th>
@@ -137,7 +137,6 @@
 		 </tr>
 	 </table>
 	 </div>
-		</div>
 	 <script>
 		const show = document.querySelector("#mode");
 		const modeValue = show.value;
@@ -152,12 +151,12 @@
 
 //Work and Rest MAS Percentages
 		const tuWorkMAS = .9;
-		const tuRestMAS = .6;
-		const thWorkMAS = .85;
+		const tuRestMAS = 0;
+		const thWorkMAS = 1.2;
 		const thRestMAS = 0;
 //Work and Rest Times
-		const tuWorkTime = 180;
-		const tuRestTime = 360;
+		const tuWorkTime = 60;
+		const tuRestTime = 30;
 		const thWorkTime = 30;
 		const thRestTime = 60;	
 			
