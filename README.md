@@ -17,20 +17,10 @@
 			}
 		</style>
 	</head>
-	<h1>Conditioning Calculator
+	<h1>Tempo Run Distance Calculator
     </h1>
-		<h4>Step 1:</h4>
-		<label for="mode">Choose your cardio of choice:</label>
-		<select name="mode" id="mode">
-			<option value=""></option>
-			<option value="Run">Run</option>
-			<option value="Bike">Bike</option>
-			<option value="Row">Row</option>
-		</select>
-		<br>
-		<br>
 		<div name="runCalculator" id="runCalculator">
-		<h4>Step 2: Enter the distance and time of your most recent time trial. Then press 'Calculate'</h4>
+		<h4>Step 1: Enter the distance and time of your most recent time trial. Then press 'Calculate'</h4>
 		<label for="dist">Distance:
         </label>
         <br>
@@ -40,7 +30,6 @@
            	</option>
 			<option value="mi">mi</option>
 			<option value="km">km</option>
-			<option value="meters">meters</option>
 		</select>
         <br>
   		<label for="time">Time:
